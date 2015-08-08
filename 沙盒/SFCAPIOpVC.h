@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SFCAPIOpVC.h
 //  沙盒
 //
 //  Created by qing yun on 15/8/6.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SFCAPIOpVC : UIViewController
 
 
 @end
-

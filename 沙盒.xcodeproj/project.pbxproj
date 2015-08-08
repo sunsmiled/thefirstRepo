@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		CC3C6C771B730B4E0028F1AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C6C761B730B4E0028F1AC /* main.m */; };
 		CC3C6C7A1B730B4E0028F1AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C6C791B730B4E0028F1AC /* AppDelegate.m */; };
-		CC3C6C7D1B730B4E0028F1AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C6C7C1B730B4E0028F1AC /* ViewController.m */; };
 		CC3C6C801B730B4E0028F1AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3C6C7E1B730B4E0028F1AC /* Main.storyboard */; };
 		CC3C6C821B730B4E0028F1AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3C6C811B730B4E0028F1AC /* Images.xcassets */; };
 		CC3C6C851B730B4E0028F1AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC3C6C831B730B4E0028F1AC /* LaunchScreen.xib */; };
 		CC3C6C911B730B4F0028F1AC /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C6C901B730B4F0028F1AC /* __Tests.m */; };
+		CC3CF5A51B732E260012B6D2 /* SFCAPIOpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3CF5A41B732E260012B6D2 /* SFCAPIOpVC.m */; };
+		CC3CF5AA1B73499C0012B6D2 /* SFOCAPIs.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3CF5A91B73499C0012B6D2 /* SFOCAPIs.m */; };
+		CC3CF5AE1B7381C80012B6D2 /* SFPlistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3CF5AD1B7381C80012B6D2 /* SFPlistVC.m */; };
+		CC3CF5B31B73889A0012B6D2 /* NSUserDefaultVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3CF5B21B73889A0012B6D2 /* NSUserDefaultVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		CC3C6C761B730B4E0028F1AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC3C6C781B730B4E0028F1AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC3C6C791B730B4E0028F1AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CC3C6C7B1B730B4E0028F1AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CC3C6C7C1B730B4E0028F1AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CC3C6C7F1B730B4E0028F1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC3C6C811B730B4E0028F1AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CC3C6C841B730B4E0028F1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CC3C6C8A1B730B4F0028F1AC /* 沙盒Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "沙盒Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3C6C8F1B730B4F0028F1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC3C6C901B730B4F0028F1AC /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		CC3CF5A31B732E260012B6D2 /* SFCAPIOpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFCAPIOpVC.h; sourceTree = "<group>"; };
+		CC3CF5A41B732E260012B6D2 /* SFCAPIOpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFCAPIOpVC.m; sourceTree = "<group>"; };
+		CC3CF5A81B73499C0012B6D2 /* SFOCAPIs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFOCAPIs.h; sourceTree = "<group>"; };
+		CC3CF5A91B73499C0012B6D2 /* SFOCAPIs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFOCAPIs.m; sourceTree = "<group>"; };
+		CC3CF5AC1B7381C80012B6D2 /* SFPlistVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFPlistVC.h; sourceTree = "<group>"; };
+		CC3CF5AD1B7381C80012B6D2 /* SFPlistVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFPlistVC.m; sourceTree = "<group>"; };
+		CC3CF5B11B73889A0012B6D2 /* NSUserDefaultVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSUserDefaultVC.h; sourceTree = "<group>"; };
+		CC3CF5B21B73889A0012B6D2 /* NSUserDefaultVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +90,12 @@
 		CC3C6C731B730B4E0028F1AC /* 沙盒 */ = {
 			isa = PBXGroup;
 			children = (
+				CC3CF5AF1B7388600012B6D2 /* NSUserDefaults */,
+				CC3CF5AB1B7381AB0012B6D2 /* Plist */,
+				CC3CF5A71B7349720012B6D2 /* OC-APIs */,
+				CC3CF5A61B7349590012B6D2 /* C-APIs */,
 				CC3C6C781B730B4E0028F1AC /* AppDelegate.h */,
 				CC3C6C791B730B4E0028F1AC /* AppDelegate.m */,
-				CC3C6C7B1B730B4E0028F1AC /* ViewController.h */,
-				CC3C6C7C1B730B4E0028F1AC /* ViewController.m */,
 				CC3C6C7E1B730B4E0028F1AC /* Main.storyboard */,
 				CC3C6C811B730B4E0028F1AC /* Images.xcassets */,
 				CC3C6C831B730B4E0028F1AC /* LaunchScreen.xib */,
@@ -117,6 +128,42 @@
 				CC3C6C8F1B730B4F0028F1AC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC3CF5A61B7349590012B6D2 /* C-APIs */ = {
+			isa = PBXGroup;
+			children = (
+				CC3CF5A31B732E260012B6D2 /* SFCAPIOpVC.h */,
+				CC3CF5A41B732E260012B6D2 /* SFCAPIOpVC.m */,
+			);
+			name = "C-APIs";
+			sourceTree = "<group>";
+		};
+		CC3CF5A71B7349720012B6D2 /* OC-APIs */ = {
+			isa = PBXGroup;
+			children = (
+				CC3CF5A81B73499C0012B6D2 /* SFOCAPIs.h */,
+				CC3CF5A91B73499C0012B6D2 /* SFOCAPIs.m */,
+			);
+			name = "OC-APIs";
+			sourceTree = "<group>";
+		};
+		CC3CF5AB1B7381AB0012B6D2 /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				CC3CF5AC1B7381C80012B6D2 /* SFPlistVC.h */,
+				CC3CF5AD1B7381C80012B6D2 /* SFPlistVC.m */,
+			);
+			name = Plist;
+			sourceTree = "<group>";
+		};
+		CC3CF5AF1B7388600012B6D2 /* NSUserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				CC3CF5B11B73889A0012B6D2 /* NSUserDefaultVC.h */,
+				CC3CF5B21B73889A0012B6D2 /* NSUserDefaultVC.m */,
+			);
+			name = NSUserDefaults;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC3C6C7D1B730B4E0028F1AC /* ViewController.m in Sources */,
+				CC3CF5B31B73889A0012B6D2 /* NSUserDefaultVC.m in Sources */,
+				CC3CF5AE1B7381C80012B6D2 /* SFPlistVC.m in Sources */,
+				CC3CF5A51B732E260012B6D2 /* SFCAPIOpVC.m in Sources */,
+				CC3CF5AA1B73499C0012B6D2 /* SFOCAPIs.m in Sources */,
 				CC3C6C7A1B730B4E0028F1AC /* AppDelegate.m in Sources */,
 				CC3C6C771B730B4E0028F1AC /* main.m in Sources */,
 			);
@@ -416,6 +466,7 @@
 				CC3C6C961B730B4F0028F1AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC3C6C971B730B4F0028F1AC /* Build configuration list for PBXNativeTarget "沙盒Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +475,7 @@
 				CC3C6C991B730B4F0028F1AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
